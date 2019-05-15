@@ -1,0 +1,8 @@
+create table t_position(
+id int(11) not null auto_increment,
+name char(255) not null,
+coordinate char(255) not null,#��ʽ��"(3,2) (4,5)",����ʱ���ݿո���зָ��ͺ���
+primary key(id),
+unique key(name)
+)engine=innodb charset=utf8;
+
